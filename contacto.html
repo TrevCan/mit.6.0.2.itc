@@ -4,7 +4,9 @@
 		<meta charset="utf-8" />
 		<title> Guitarras y más	</title>
 		<link rel="stylesheet" href="style.css" />
+
 	</head>
+	<script src=include.js > </script>
 
 	<body>
 		<h1 class = "bienvenida2" align="center">
@@ -19,19 +21,23 @@
 				</h2></i>
 
 				<pre>
-				<form>
-	Nombre: 	<input name="n" >
+				<form name=forminput>
+	Nombre: <a style=color:red >*</a> 	<input name="nombre" >
 					<br>
-	Correo: 	<input name="cr" >
+	Correo: 	<input name="correo" >
 					<br>
-	Teléfono: 	<input name="tl" type=number >
+	Teléfono: <a style=color:red >*</a> 	<input name="telefono" type=number >
 	<br>
-	Mensaje: 	<textarea name="msg" ></textarea>
+	Mensaje: <a style=color:red >*</a> 	<textarea name="mensaje" ></textarea>
 	<br>
-	Comentarios: 	<textarea name="msg" ></textarea>	
+	Comentarios:	<textarea name="msg" ></textarea>	
 
-	<input value="Enviar mensaje" class=button type=button >	<input value="Eliminar datos" type=reset class=button >
+	<input value="Enviar mensaje" class=button type=button onclick=sendForm(); >	<input value="Eliminar datos" type=reset class=button >
 				</form>
+
+				<em>
+				Los datos con un asterisco (<a style=color:red> *</a> ) son obligatorios.	
+				</em>
 
 				</pre>
 
