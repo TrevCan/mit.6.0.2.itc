@@ -1,0 +1,111 @@
+@font-face{
+	font-family: 'Proxima Nova Bold';
+	src: url('Proxima Nova Bold.otf') format('opentype');
+}
+
+@font-face{
+	font-family: 'Gilroy-ExtraBold';
+	src: url('Gilroy-ExtraBold.otf') format('opentype');
+}
+
+#row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+	
+}
+#basiccontainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+	
+	
+}
+
+.background {
+	background-color: #ffffff;
+}
+
+.encabezado {
+
+	font-family:'Gilroy-ExtraBold';
+	color: black;
+	font-size: x-large;
+	text-align: center;
+	
+
+}
+
+
+
+.button {
+	align: center;
+	color: whitesmoke;
+	background-color: #d97400;
+	font-family: 'Proxima Nova Bold';
+	border: 0;
+	height: 70px;
+	width: 150px;
+	border-radius: 30px;
+}
+
+.button:hover {
+	align: center;
+	color: whitesmoke;
+	background-color: #dd9747;
+	font-family: 'Proxima Nova Bold';
+	border: 0
+	
+}
+
+.button:focus {
+	align: center;
+	color: whitesmoke;
+	background-color: #deb98e;
+	font-family: 'Proxima Nova Bold';
+	border: 0
+}
+
+.tabla {
+	color: #8e8b8c;
+	bgcolor: #d97400;
+	border-radius: 20px;
+	font-family: 'Gilroy-ExtraBold';
+}
+
+.logo {
+	align-self: center;
+}
+
+.center {
+	justify-content: center;
+}
+.bienvenida {
+
+	font-family: 'Gilroy-ExtraBold';
+	color: black;
+	align-self: center;
+}
+.bienvenidah3 {
+	font-family: 'Proxima Nova Bold';
+	color: black;
+	align-self: center;
+}
+.bienimg {
+	margin: auto;
+	display: block;
+	width: 700px;
+	height: 400px;
+}
+.bienvenida2 {
+	font-family: 'Gilroy-ExtraBold';
+	color: #d97400;
+	align-self: center;
+}
+.whtxt {
+	font-family: 'Gilroy-ExtraBold';
+	color: #ffffff;
+	align-self: center;
+}
